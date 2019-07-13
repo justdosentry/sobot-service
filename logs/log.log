@@ -1,0 +1,13 @@
+2019-07-13 17:23:27,230 INFO [main] c.i.s.SobotServiceApplication [StartupInfoLogger.java : 50] Starting SobotServiceApplication on sentrys-iMac-Pro.local with PID 34817 (/Users/sentry/Desktop/sentry/workspace/sobot-service/target/classes started by sentry in /Users/sentry/Desktop/sentry/workspace/sobot-service)
+2019-07-13 17:23:27,232 INFO [main] c.i.s.SobotServiceApplication [SpringApplication.java : 650] The following profiles are active: dev
+2019-07-13 17:23:28,169 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-13 17:23:28,176 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2019-07-13 17:23:28,176 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-13 17:23:28,256 INFO [main] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2019-07-13 17:23:28,870 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8080"]
+2019-07-13 17:23:28,902 INFO [main] c.i.s.SobotServiceApplication [StartupInfoLogger.java : 59] Started SobotServiceApplication in 22.032 seconds (JVM running for 27.539)
+2019-07-13 17:24:36,665 INFO [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-13 17:24:36,710 INFO [http-nio-8080-exec-2] c.i.sobotservice.aop.SystemLogAspect [SystemLogAspect.java : 60] ==============前置通知开始==============
+2019-07-13 17:24:36,711 INFO [http-nio-8080-exec-2] c.i.sobotservice.aop.SystemLogAspect [SystemLogAspect.java : 61] 请求方法com.iqianjin.sobotservice.controller.HealthController.health
+2019-07-13 17:24:36,711 INFO [http-nio-8080-exec-2] c.i.sobotservice.aop.SystemLogAspect [SystemLogAspect.java : 62] 方法描述：健康检查
+2019-07-13 17:24:36,740 INFO [http-nio-8080-exec-2] c.i.sobotservice.aop.SystemLogAspect [SystemLogAspect.java : 69] 参数：null;null;

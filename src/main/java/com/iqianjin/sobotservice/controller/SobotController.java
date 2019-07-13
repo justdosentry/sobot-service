@@ -20,7 +20,6 @@ import org.springframework.web.bind.annotation.RestController;
  * 智齿服务接口
  */
 @RestController("/thirdparty/opsigenes")
-//@RestController("/")
 public class SobotController {
 
   @Autowired
