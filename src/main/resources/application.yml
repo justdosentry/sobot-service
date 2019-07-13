@@ -1,0 +1,9 @@
+server:
+  port: 8080
+spring:
+  aop:
+    auto: true
+    proxy-target-class: true
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

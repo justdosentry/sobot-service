@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.iqianjin.sobotservice.dao.SobotMapper">
+    <insert id="saveChatMessage" parameterType="list">
+        insert into chat_msg(company_id,cid,timems,`time`,sender_name,receiver_name,sender_type,receiver_type,msg) values
+        <foreach collection="contentBeanList" item="item" index="index" separator="," open="(" close=")">
+            #{item.companyId},#{item.cid},#{item.timems},#{item.time},#{item.senderName},#{item.receiverName},
+            #{item.senderType},#{item.receiverType},#{item.msg}
+        </foreach>
+    </insert>
+
+</mapper>
